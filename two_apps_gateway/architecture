@@ -1,0 +1,4 @@
+Architecture
+PostgreSQL: A single instance, not exposed outside the cluster.
+Microservices: Two services, each connecting to PostgreSQL, not exposed.
+API Gateway: A gateway that routes requests to the microservices, exposed outside the cluster.
